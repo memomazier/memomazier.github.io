@@ -1,0 +1,126 @@
+/* Estilos para el header */
+header {
+    padding: 60px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header h2 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #6c757d;
+}
+
+header p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+header .btn {
+    margin: 0.5rem;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stars {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-background {
+    color: lightgray; /* Color de fondo (estrellas grises) */
+}
+
+.stars-foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: gold; /* Color de las estrellas amarillas */
+    overflow: hidden;
+}
+
+.fa-star {
+    font-size: 1.2rem; /* Tamaño de las estrellas */
+    margin-right: 2px;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#contact p a {
+    font-size: 1.2em;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #82c4c3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #70b1b0;
+}
+
+.gradient-text {
+    font-weight: bold;
+    font-size: 3em; /* Ajusta el tamaño según tus necesidades */
+    background: -webkit-linear-gradient(#6CC1FF, #6066D0, #9B51E0); /* Gradiente de color */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Montserrat', sans-serif; /* Asegúrate de usar la fuente deseada */
+}
